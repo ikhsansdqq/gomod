@@ -38,8 +38,8 @@ func isPalindrome(str string) bool {
 	return true
 }
 
-func strPalindrome(str string) string {
-	return str
+func strPalindrome(st string) string {
+	return st
 }
 
 func reverse(s string) string {
