@@ -42,10 +42,6 @@ func strPalindrome(str string) string {
 	return str
 }
 
-func intPalindrome(i int) int {
-	return i
-}
-
 func reverse(s string) string {
 	rns := []rune(s)
 	for i, j := 0, len(rns)-1; i < j; i, j = i+1, j-1 {
